@@ -7,6 +7,20 @@
 </head>
 <body>
   
+  <h2>自動補完</h2>
+  <section>
+    <form action="./result.html">
+      <input type="text" name="name">
+      <input type="text" name="email">
+      <input type="password" name="password">
+      <input type="submit" value="Go">
+    </form>
+  
+    <p>nameを「email」にするとemailとして反応し、</p>
+  </section>
+  
+  
+  
   <h2>パスワード自動生成を制御する</h2>
   
   
@@ -25,7 +39,13 @@
     </p>
   </section>
   
-  
+  <section>
+    <form action="./result.html">
+      <input type="text" name="password" autocomplete="new-password">
+      <input type="text" name="password_confirm" autocomplete="new-password">
+      <input type="submit" value="送信">
+    </form>
+  </section>
   
 <!--   
   <input type="name" autofocus>
